@@ -5,7 +5,7 @@ import os
 
 def do_magic():
     now = datetime.datetime.now()
-    return "Hello Qehbe Etibar! {0}".format(now)
+    return "The date information! {0}".format(now)
 
 
 def application(env, start_response):
